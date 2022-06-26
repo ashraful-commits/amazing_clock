@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>amazing clock</title>
+</head>
+<body>
+ <div class="container">
+    <div class="row d-flex justify-content-center ">
+        <div class="col-md-2">
+            <div class="clock d-md-flex justify-content-around align-items-center">
+                <div class="hour">
+                    <h1 id="hour">0</h1>
+                    <div class="dot dot_hour"> </div>
+                    <div class=" dot doted_hour"></div>
+                   
+                    <svg >
+                        <circle cx="70" cy="70" r="60" stroke="white" fill="transparent" stroke-width="1"></circle>
+                        <circle id="hour_circle" cx="70" cy="70" r="60" stroke="#FF1700" fill="transparent" stroke-width="5"></circle>
+                    </svg>
+                </div>
+                <div class="munite">
+                    <h1 id="munite">0</h1>
+                    <div class="dot dot_munite"></div>
+                    <div class="dot doted_munite"></div>
+                 
+                    <svg >
+                        <circle cx="70" cy="70" r="60" stroke="white" fill="transparent" stroke-width="1"></circle>
+                        <circle id="munite_circle" cx="70" cy="70" r="60" stroke="#37E2D5" fill="transparent" stroke-width="5"></circle>
+                    </svg>
+                </div>
+                <div class="second">
+                    <h1 id="second">0</h1>
+                    <div class="dot dot_second"></div>
+                    <div class="dot doted_second"></div>
+                   
+                    <svg >
+                        <circle cx="70" cy="70" r="60" stroke="white" fill="transparent" stroke-width="1"></circle>
+                        <circle id="second_circle" cx="70" cy="70" r="60" stroke="#F7FD04" fill="transparent" stroke-width="5"></circle>
+                    </svg>
+                </div>
+                <div>
+                    <h1 id="ampm">am</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center ms-3">
+        <div class="col-md-4 ">
+            <div class="clock_c d-flex justify-content-around">
+            <h1 id="hour_c" class=" mb-0 ">0</h1>
+            <h1 id="munite_c" class=" mb-0 ">0</h1>
+            <h1 id="second_c" class=" mb-0 ">0</h1>
+            <p id="ampm_c" class="h5 text-white">0</p>
+        </div>
+    </div>
+    </div>
+ </div>
+
+
+    
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/function.js"></script>
+    <script src="./assets/js/app.js"></script>
+
+</body>
+</html>
